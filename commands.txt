@@ -1,0 +1,20 @@
+# Navigate to your project directory
+cd C:\Users\Apoorv\Downloads\book_recommender
+
+# Initialize Git repository
+git init
+
+# Configure Git (replace with your details)
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+# Create and add .gitignore
+# Copy the contents from earlier .gitignore file
+
+# Add all files and make initial commit
+git add .
+git commit -m "Initial commit: Project setup"
+
+# Optional: If you want to add a remote repository later
+# git remote add origin <your-repository-url>
+# git push -u origin main 
